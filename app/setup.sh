@@ -47,3 +47,4 @@ ln -s /home/openemm/bin/openemm.sh /usr/local/bin/openemm
 
 #touch /var/log/syslog
 #tailf /var/log/syslog
+/bin/bash 
