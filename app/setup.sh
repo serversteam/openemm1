@@ -45,5 +45,5 @@ ln -s /home/openemm/bin/openemm.sh /usr/local/bin/openemm
 #cd /usr/local/tomcat/bin
 #./startup.sh
 
-touch /var/log/syslog
-tailf /var/log/syslog
+#touch /var/log/syslog
+#tailf /var/log/syslog
