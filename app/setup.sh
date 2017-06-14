@@ -35,8 +35,8 @@ ln -s /home/openemm/conf conf
 
 # Copy my.cnf to openemm user
 
-cp ~/.my.cnf /home/openemm/.my.cnf
-chown openemm:openemm /home/openemm/.my.cnf
+#cp ~/.my.cnf /home/openemm/.my.cnf
+#chown openemm:openemm /home/openemm/.my.cnf
 
 # Install Executable Service Manager
 
@@ -45,5 +45,5 @@ ln -s /home/openemm/bin/openemm.sh /usr/local/bin/openemm
 #cd /usr/local/tomcat/bin
 #./startup.sh
 
-#touch /var/log/syslog
-#tailf /var/log/syslog
+touch /var/log/syslog
+tailf /var/log/syslog
