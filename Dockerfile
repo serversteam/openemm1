@@ -42,6 +42,7 @@ EXPOSE 8080 25
 #RUN rm -rf /var/lib/apt/lists/*\ \ &&
 COPY app/ /app/
 RUN chmod +x /app/setup.sh
+RUN chmod +x /app/init.sh
 RUN /app/setup.sh
 
 ENTRYPOINT ["/app/init.sh"]
