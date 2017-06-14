@@ -43,3 +43,5 @@ EXPOSE 8080 25
 COPY app/ /app/
 RUN chmod +x /app/setup.sh
 RUN /app/setup.sh
+
+ENTRYPOINT ["/app/init.sh"]
