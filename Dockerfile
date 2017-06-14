@@ -26,6 +26,7 @@ RUN ln -s /usr/lib/jvm/java-8-oracle/jre /opt/openemm/java
 RUN echo "export JAVA_HOME=/opt/openemm/java" > ~/.bashrc
 RUN . ~/.bashrc
 RUN apt-get install wget -y
+RUN apt-get install git -y
 RUN wget http://redrockdigimark.com/apachemirror/tomcat/tomcat-8/v8.5.15/bin/apache-tomcat-8.5.15.tar.gz
 RUN tar -zxf apache-tomcat-8.5.15.tar.gz
 RUN mv apache-tomcat-8.5.15 /usr/local/tomcat
